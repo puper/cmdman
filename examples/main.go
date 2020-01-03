@@ -1,9 +1,3 @@
-# cmdman
-a memory queue ordered by key, can process your business event safely
-
-
-# example
-```
 package main
 
 import (
@@ -43,5 +37,3 @@ func Run(cmdMan *cmdman.CMDMan, owner string, from, to int) {
 		}
 	}()
 }
-
-```
